@@ -1,0 +1,20 @@
+# Зависимости и сборка
+node_modules/
+dist/
+
+# Результаты тестов
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Окружение и служебные файлы
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tsbuildinfo
